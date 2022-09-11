@@ -3,9 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints a random number and states whether it is porsitive, or negative, or zero
+ * main - Print if the number is porsitive, negative, or zero
  *
- * Return: always 0.
+ * Description: using the main function
+ * this program prints "Programming is positive, negetive, or zero"
+ * Return: 0
  */
 int main(void)
 {
@@ -13,13 +15,19 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_max / 2;
-
+	/* your code goes there*/
 	if (n > 0)
-		print('%d is positive" , n);
+	{
+		print('%i is positive" , n);
+	}
 	else if (n < 0)
-		printf("%d is negative\n" , n);
-	else
-		printf("%d is zero\n" , n);
+	{
+		printf("%i is negative\n" , n);
+	}
+	else if (n = 0)
+	{
+		printf("%i is zero\n" , n);
+	}
 
 	return (0);
 }
