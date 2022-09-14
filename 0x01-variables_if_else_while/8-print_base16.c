@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	int dig;
+	char alphabet;
+
+	for (dig = 0; dig < 10; dig++)
+		putchar((dig % 10) + '0');
+
+	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
+		putchar(alphabet);
+
+	putchar('\n');
+
+	return (0);
+}
