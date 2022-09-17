@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include "main"
+#include "main.h"
 
 /**
  * pritn_numbers - Prints the numbers from 0-9
  *
  * Return: nothing
  */
-void print_numbers(void)
+void print_numbers(void);
 {
 	int num;
 
