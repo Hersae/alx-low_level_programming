@@ -12,7 +12,7 @@ void puts_half(char *str)
 		wil++;
 
 	if ((wil % 2) == 0)
-		n = wil  2;
+		n = wil / 2;
 
 	else
 		n = (wil + 1) / 2;
