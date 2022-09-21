@@ -1,0 +1,17 @@
+#ifdef HOLBERTON_H_INCLUDED
+#define HOLBERTON_H_INCLUDED
+
+int _putchar(char);
+void print_alphabet(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+void Jack_bauer(void);
+void times_table(void);
+int add(iint a, int b);
+void print_to_98(int n);
+void print_times_table(int n);
+void num(int r, int n);
+
+#endif
