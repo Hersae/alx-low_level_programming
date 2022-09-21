@@ -2,6 +2,7 @@
 
 /**
  * print_rev - prints a string in reverse
+ * will is the first count to end, index is to count back
  * @s: the string to be printed
  */
 void print_rev(char *s)
