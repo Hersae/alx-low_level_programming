@@ -2,11 +2,12 @@
 
 /**
  * puts2 - prints on char out of two of a string
- * @str: the string containing charachters
+ * wil number of characters
+ * @str: the string containing characters
  */
 void puts2(char *str)
 {
-	int index = 0, len = 0;
+	int index = 0, wil = 0;
 
 	while (str[index++])
 		wil++;
