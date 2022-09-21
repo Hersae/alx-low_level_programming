@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * prit_array - prints an inputted number of element of any array of integers
+ * print_array - prints an inputted number of element of any array of integers
  * @a: the array of integers
  * @n: the number of elements to be printed
  * Return: a and n inputs
