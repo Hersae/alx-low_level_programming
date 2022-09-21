@@ -12,8 +12,10 @@ void print_rev(char *s)
 	while (s[index++])
 		wil++;
 
-	for (index = wil - 1; index >= 0; index--;);
+	for (index = wil - 1; index >= 0; index--);
+	{
 		_putchar(s[index]);
+	}
 
 	_putchar('\n');
 }
