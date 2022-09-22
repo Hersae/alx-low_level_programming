@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - Entry point
  * Description: prints '_putchar\n'
@@ -15,7 +14,7 @@ int main(void)
 	{
 		char c = str[i];
 
-		_putchar(c);
+		_putchar(char c);
 		i++;
 	}
 	return (0);
