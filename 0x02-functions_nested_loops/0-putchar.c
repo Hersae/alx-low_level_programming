@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * Discreption: prints '_putchar\n'
+ * main - Entry point
+ * Description: prints '_putchar\n'
  * print_alphabet - pritns the alphabet in lowercase, followed by a new line
  * Return: 0
  */
