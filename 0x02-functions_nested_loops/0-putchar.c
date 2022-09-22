@@ -1,15 +1,21 @@
 #include "main.h"
 
 /**
+ * Discreption: prints '_putchar\n'
  * print_alphabet - pritns the alphabet in lowercase, followed by a new line
+ * Return: 0
  */
-void print_alphabet(void)
+int main(void)
 {
-	int letter;
+	char str[] = "_putchar\n";
+	int i = 0;
 
-		for (letter = 'a'; letter <= 'z'; letter++)
-		{
-			_putchar(letter);
-		}
-	_putchar('\n');
+	while (str[i] != '\0')
+	{
+		char c = str[i];
+
+		_putchar(c);
+		i++;
+	}
+	return (0);
 }
